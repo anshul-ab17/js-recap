@@ -13,7 +13,7 @@ number => 2 to power 53
 bigint
 string => ""
 boolean => true/false
-null => standalone value e.g  NAN 
+null => standalone value  
 undefined => // not declared.
 symbol => unique 
 
