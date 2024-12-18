@@ -20,4 +20,5 @@ console.log(arr[3])
 
 const Djs =new Array("daft-punk","deadmau","alan","chainsmoker")
 
+
 console.log(Djs)
