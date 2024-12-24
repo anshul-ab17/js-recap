@@ -13,7 +13,7 @@ DATATYPES
 //bigInt- for scientifc values.
 
 #ii. Non- Primitive. or Reference.
--all the value are such that their reference in memory can be firecttly allocated to us .
+-all the value are such that their reference in memory can be directtly allocated to us .
 
 types- Array, Objects, Functions.
 

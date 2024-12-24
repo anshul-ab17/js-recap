@@ -11,7 +11,9 @@ console.log(arr)
 console.log(arr["hey"])
 console.log(arr[3])
 
-// JavaScript array-copy operations create shallow copies. rather using deep copies.
+// JavaScript array-copy operations create -----shallow copies. 
+
+// rather using deep copies.
 
 //# A shallow copy of an object is a copy whose properties share the same references (point to the same underlying values) as those of the source object from which the copy was made.As a result, when you change either the source or the copy, you may also cause the other object to change too.
 
