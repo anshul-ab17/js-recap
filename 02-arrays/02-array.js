@@ -20,19 +20,22 @@ console.table(car);
 
 
 
-const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
+const arr1 = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
 
-// const real_another_array = another_array.flat(Infinity)
-// console.log(real_another_array);
+const real_arr = arr1.flat(Infinity) // flat(no-of-depth)--- return new array with all elements to be in one array.
+console.log(real_arr);
 
 
 
-// console.log(Array.isArray("Hitesh"))
-// console.log(Array.from("Hitesh"))
-// console.log(Array.from({name: "hitesh"})) // interesting
+console.log(Array.isArray("ab")) // isArray- check if it's an array.
+console.log(Array.from("ab")) // from-- make it an array
+console.log(Array.from({name: "bharat"}))  // here it can't directly convert , we have to pass parameter for what we want are array to be whether key or value.
 
-// let score1 = 100
-// let score2 = 200
-// let score3 = 300
+// if it can;t it'll give an empty array
 
-// console.log(Array.of(score1, score2, score3));
+let score1 = 100
+let score2 = 200
+let score3 = 300
+
+//of -- make array of following  multi variables
+console.log(Array.of(score1, score2, score3));
