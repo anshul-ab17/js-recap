@@ -1,23 +1,32 @@
+//----for of ------
 
-let index = 0
-// while (index <= 10) {
-//     console.log(`Value of index is ${index}`);
-//     index = index + 2
-// }
+// for (const element of array1) {
+//     console.log(element);
+//   }
 
-let myArray = ['flash', "batman", "superman"]
+const arr = [1, 2, 3, 4, 5]
 
-// let arr = 0
-// while (arr < myArray.length) {
-//     console.log(`Value is ${myArray[arr]}`);
-//     arr =+ 1
-// }
+for (const num of arr) {
+    // console.log(num);
+}
+
+const greetings = "Hello world!"
+for (const greet of greetings) {
+    // console.log(`Each char is ${greet}`)
+}
+
+//-----Maps------
+//  Map object holds key-value pairs and remembers the original insertion order of the keys
+
+const map = new Map()
+map.set('IN', "India")
+map.set('USA', "United States of America")
+map.set('Fr', "France")
+map.set('IN', "India")// set unique value so this won't be added into the map
 
 
-//do-while:
-let score = 11//it get exceuted, as element is consoled first and then condition is checked.
+console.log(map);
 
-do {
-    console.log(`Score is ${score}`);
-    score++
-} while (score <= 10);
+for (const [key, value] of map) {
+    console.log(key, ':-', value);
+}
