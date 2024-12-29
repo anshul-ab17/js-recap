@@ -39,3 +39,8 @@ const myObject = {
     'game2': 'Spiderman'
 }
 
+//object is not iteratable like array
+// for (const [key, value] of myObject) {
+//     console.log(key);
+    
+// }
