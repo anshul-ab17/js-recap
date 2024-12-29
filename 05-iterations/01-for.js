@@ -23,6 +23,9 @@ for (let i = 0; i <= 10; i++) {
 
 // break and continue
 
+//in break - we break out of the loop
+// while in continue we just skip the continue element.
+
 for (let index = 1; index <= 20; index++) {
     if (index == 5) {
         console.log(`Detected 5`);
