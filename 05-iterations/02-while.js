@@ -30,3 +30,12 @@ console.log(map);
 for (const [key, value] of map) {
     console.log(key, ':-', value);
 }
+
+
+// for object
+
+const myObject = {
+    'game1': 'NFS',
+    'game2': 'Spiderman'
+}
+
